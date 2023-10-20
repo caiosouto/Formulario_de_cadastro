@@ -3,12 +3,34 @@
         display: none;
     }
     .container {
-        width: 50%;
+        width: 75%;
     }
     .form {
         width: 100%;
     }
+    .form-header {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding: 50px 10px;
+                                
+    }
+    .input-group {
+        gap: 0.5rem;
+    }
 }
+
+@media screen and (min-width: 1065px) and (max-width: 1128px) {
+    .container{
+        width: 60%;
+        height: 95vh;
+    }
+    .input-group {
+        gap: 0.5rem;
+        
+    }
+}
+    
 
 @media screen and (max-width: 1064px) {
     .container {
