@@ -3,7 +3,7 @@
         display: none;
     }
     .container {
-        width: 80%;
+        width: 88%;
     }
     .form {
         width: 100%;
@@ -12,8 +12,7 @@
         display: flex;
         text-align: center;
         justify-content: space-between;
-        padding: 50px 10px;
-                                
+        padding: 50px 10px;                          
     }
     .input-group {
         gap: 0.5rem;
