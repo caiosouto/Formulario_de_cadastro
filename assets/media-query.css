@@ -3,7 +3,7 @@
         display: none;
     }
     .container {
-        width: 75%;
+        width: 80%;
     }
     .form {
         width: 100%;
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 1065px) and (max-width: 1128px) {
     .container{
-        width: 60%;
+        width: 80%;
         height: 95vh;
     }
     .input-group {
